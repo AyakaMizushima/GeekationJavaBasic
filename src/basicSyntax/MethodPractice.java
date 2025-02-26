@@ -1,8 +1,9 @@
 package basicSyntax;
 
 public class MethodPractice {
-
+	
 	public static void main(String[] args) {
+		
 		int a = 12;
 		int b = 3;	
 		
@@ -11,11 +12,17 @@ public class MethodPractice {
 		int result3 = byNum(a,b);
 		int result4 = divNum(a,b);
 		
-		System.out.println("計算結果は" + result1 + "です。");
-		System.out.println("計算結果は" + result2 + "です。");
-		System.out.println("計算結果は" + result3 + "です。");
-		System.out.println("計算結果は" + result4 + "です。");
+		int[] resultCodes = {result1, result2, result3, result4};
+		
+		for (int result: resultCodes) {
+			display(result);
+		}
 	}
+	//method5
+	public static void display(int result) {
+		System.out.println("計算結果は" + result + "です。");
+	}
+	
 	//method 1
 	public static int sumNum(int a, int b) {
 		int sum = a + b;
