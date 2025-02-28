@@ -8,7 +8,7 @@ public class Main {
 		GeekIntroduction.greeting(age, height);
 		
 		//main2を実行*
-	    main2(args);
+		main2(args);
 	}
 	
 	public static void main2(String[] args) {
