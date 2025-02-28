@@ -6,20 +6,19 @@ public class Main {
 		int age = 30;
 		double height = 181.9;
 		
-		int ageResult = GeekIntroduction.ageResult(age);
-		double heightResult = GeekIntroduction.heightResult(height);
+		int myAge = GeekIntroduction.ageResult(age);
+		double myHeight = GeekIntroduction.heightResult(height);
 		
 		System.out.println("こんにちは!私はGeek君でごわす。");
 		
-		GeekIntroduction.greeting("age", String.valueOf(ageResult));
-		GeekIntroduction.greeting("height", String.valueOf(heightResult));
+		GeekIntroduction.greeting(myAge, myHeight);
 		
 		//main2を実行*
 	    main2(args);
 	}
 	
 	public static void main2(String[] args) {
-		int num1 = 10;
+		int num1 = 55;
 		int num2 = 50;
 		
 		GeekIntroduction.specialSkill(num1, num2);
