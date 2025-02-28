@@ -3,14 +3,9 @@ package basicSyntax;
 public class GeekIntroduction {
 	//method1
 	public static void greeting(int age, double height) {
+		System.out.println("こんにちは!私はGeek君でごわす。");
 		System.out.println("年は" + age + "でごわす。");
 		System.out.println("身長は" + height + "でごわす。");
-	}
-	public static int ageResult(int age) {
-		return age;
-	}
-	public static double heightResult(double height) {
-		return height;
 	}
 	
 	//method2
